@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .body {
+    @apply font-mulish text-base leading-normal;
+  }
+
+  .h1 {
+    @apply text-[24px] font-staatliches leading-tight lg:text-[30px];
+  }
+
+  .h2 {
+    @apply text-[18px] font-staatliches leading-tight lg:text-[25px];
+  }
+
+  .h3 {
+    @apply text-[15px] font-staatliches leading-tight lg:text-[20px];
+  }
+
+  .h4 {
+    @apply text-[16px] font-mulish leading-tight lg:text-[16px];
+  }
+  .h5 {
+  @apply text-[24px] font-staatliches leading-tight lg:text-[40px];
+  }
+}
+
+@layer components {
+  .grille {
+    @apply lg:grid lg:grid-cols-principal lg:justify-center lg:gap-12 px-6;
+  }
+
+  .grille_row {
+    @apply px-6 grid grid-cols-12 justify-between gap-8;
+  }
+
+  .menu-item {
+    @apply relative overflow-hidden lg:before:absolute lg:before:bottom-0 lg:before:left-0 lg:before:h-2 lg:before:w-full lg:before:translate-y-2 lg:before:bg-noir lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:hover:before:translate-y-0;
+  }
+
+  .menu-link {
+    @apply block px-5 py-4 lg:py-4;
+  }
+
+  .ligne {
+    @apply px-6 grid grid-rows-secondary gap-12;
+  }
+
+}

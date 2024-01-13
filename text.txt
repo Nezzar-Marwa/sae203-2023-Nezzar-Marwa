@@ -1,0 +1,32 @@
+      <section class=" col-span-4 col-start-8 hidden lg:block col-span-3 col-start-9 space-y-3">
+      <h4 class="mb-8 h4 text-center">Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à nous en faire part.
+          Car pour nous votre avis compte</h4>
+      <form action="#">
+      <div>
+        <label for="Prénom*">Prénom<span class="text-rouge">*</span> </label>
+        <input class="flex rounded-lg text-backgroundcolor border mb-4 px-12 py-1 border-articles focus:outline-none focus:ring-1 focus:ring-articles lg:px-24 " type="text" name="Prénom" id="Prénom">
+      </div>
+      <div>
+        <label for="Nom*">Nom<span class="text-rouge">*</span></label>
+        <input class="flex rounded-lg text-noir border mb-4 px-12 py-1  border-articles focus:outline-none focus:ring-1 focus:ring-articles lg:px-24  " type="text" name="Nom" id="Nom">
+      </div>
+      <div>
+        <label for="Mail*">Mail<span class="text-rouge">*</span></label>
+        <input class="flex rounded-lg text-noir border mb-4 px-12 py-1  border-articles  invalid:border-rouge invalid:text-rouge focus:outline-none focus:ring-1 focus:ring-articles focus:invalid:border-rouge focus:invalid:ring-rouge lg:px-24 " type="email" placeholder="VotreEmail@gmail.com" name="Mail">
+      </div>
+      <div>
+        <label for="Téléphone*">Téléphone<span class="text-rouge">*</span></label>
+        <input class="flex rounded-lg text-noir border mb-4 px-12 py-1  border-articles  invalid:border-rouge invalid:text-rouge focus:outline-none focus:ring-1 focus:ring-articles focus:invalid:border-rouge focus:invalid:ring-rouge lg:px-24 " type="text" placeholder="Votre numéro ici" name="Téléphone">
+      </div>
+      <div>
+        <label for="message*">Message<span class="text-rouge">*</span></label>
+        <textarea class="flex rounded-lg text-backgroundcolor border mb-4 px-16 py-1  border-articles focus:outline-none focus:ring-1 focus:ring-articles lg:px-28"  id="msg" name="message" rows="5"></textarea>
+      </div>
+      <div>
+      <button class="rounded-lg border border-articles px-10 py-3 font-bold text-backgroundcolor hover:bg-articles"  type="submit">Envoyer</button>
+    </div>
+    </form>
+    </section>
+
+
+    flex item-center justify-center
